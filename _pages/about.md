@@ -23,8 +23,8 @@ I am a final-year PhD Student in [ECE](https://www.ece.gatech.edu/) at [Georgia 
 **My research designs low cost and principled security solutions for hardware.** I am interested in a variety of topics at the intersection of computer architecture and system security, including cache side-channel resilience, transient execution attacks and defenses in processors, rowhammer attacks and memory integrity, memory safety, and others.
 
 I have had the good fortune of interning in multiple academic and industry research labs:  
-* **Summer-2021:** Visiing Researcher at [TU Graz](https://www.iaik.tugraz.at/), Austria working with [Prof. Daniel Gruss](https://gruss.cc/) on reverse-engineering new processor microarchitectures and attacking memory compression.
-* **Summer-2020:** Research Intern at [IBM Research (Security)](https://researcher.watson.ibm.com/researcher/view_group.php?id=2720), TJ Watson Center NY, working on hardware support for low cost memory-safety.
+* **Summer-2021:** Researcher at [TU Graz](https://www.iaik.tugraz.at/), Austria working with [Prof. Daniel Gruss](https://gruss.cc/) on reverse-engineering new processor microarchitectures and attacking memory compression.
+* **Summer-2020:** Research Intern at [IBM Research (Security)](https://researcher.watson.ibm.com/researcher/view_group.php?id=2720) TJ Watson Center, NY, working on hardware support for low cost memory-safety.
 * **Summer-2019:** Research Intern at [Microsoft](https://www.microsoft.com/en-us/research/), Redmond, working on low-cost mitigation of processor-speculation attacks like Spectre, Meltdown, etc.  
 * **Summer-2018:** [Intel Labs Security & Privacy Research](https://www.intel.com/content/www/us/en/research/overview.html) in Hillsboro working on low cost memory-safety with hardware-software co-design.  
 * **Summer-2017:** [ARM Research](https://www.arm.com/resources/research) in Austin exploring low-overhead integrity solutions for DRAM memories.
