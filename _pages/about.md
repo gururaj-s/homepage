@@ -2,23 +2,31 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: <SPAN STYLE="font-weight:bold">Research Areas - Computer Architecture and Security.</SPAN><br> <a href="https://memlab.ece.gatech.edu/">Memory Systems Lab</a>, <a href="https://www.ece.gatech.edu/">Georgia Tech</a>.
+#<SPAN STYLE="font-weight:bold">Affiliation</SPAN> - <a href="https://memlab.ece.gatech.edu/">Memory Systems Lab</a>, <a href="https://www.ece.gatech.edu/">Georgia Tech</a>. <br><SPAN STYLE="font-weight:bold">Interests</SPAN> - Computer Architecture and Security.     
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: gs.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
+    PhD, Georgia Tech (Expected Spring 2022)<br>
+    B.Tech, M.Tech, IIT Bombay, India<br>
+    Email - gururaj.s@gatech.edu<br>
+ 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a final-year PhD Student in [ECE](https://www.ece.gatech.edu/) at [Georgia Tech](http://www.gatech.edu/), USA,  advised by [Prof. Moinuddin Qureshi](https://www.cc.gatech.edu/~moin/). My research is at the intersection of **Computer Architecture** & **Systems Security**.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+**My research designs low cost and principled security solutions for hardware.** I am interested in a variety of topics at the intersection of computer architecture and system security, including cache side-channel resilience, transient execution attacks and defenses in processors, rowhammer attacks and memory integrity, memory safety, and others.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I have had the good fortune of interning in multiple academic and industry research labs:  
+* **Summer-2021:** Visiing Researcher at [TU Graz](https://www.iaik.tugraz.at/), Austria working with [Prof. Daniel Gruss](https://gruss.cc/) on reverse-engineering new processor microarchitectures and attacking memory compression.
+* **Summer-2020:** Research Intern at [IBM Research (Security)](https://researcher.watson.ibm.com/researcher/view_group.php?id=2720), TJ Watson Center NY, working on hardware support for low cost memory-safety.
+* **Summer-2019:** Research Intern at [Microsoft](https://www.microsoft.com/en-us/research/), Redmond, working on low-cost mitigation of processor-speculation attacks like Spectre, Meltdown, etc.  
+* **Summer-2018:** [Intel Labs Security & Privacy Research](https://www.intel.com/content/www/us/en/research/overview.html) in Hillsboro working on low cost memory-safety with hardware-software co-design.  
+* **Summer-2017:** [ARM Research](https://www.arm.com/resources/research) in Austin exploring low-overhead integrity solutions for DRAM memories.
+
+I received my B.Tech & M.Tech in [Electrical Engineering](http://www.ee.iitb.ac.in/) at [Indian Institute of Technology - Bombay](http://www.iitb.ac.in/), India in 2014, with a Minor Degree in [Computer Science](http://www.cse.iitb.ac.in/).
