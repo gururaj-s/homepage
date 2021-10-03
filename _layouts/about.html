@@ -17,9 +17,10 @@ layout: default
       {% if page.profile.image %}
         <img class="img-fluid z-depth-1 rounded" src="{{ page.profile.image | prepend: '/assets/img/' | relative_url }}">
       {% endif %}
-      {% if page.profile.address %}
-        <div class="address">
-          {{ page.profile.address }}
+      {% if page.profile.email %}
+        <div class="side-below-img">
+	  {% if page.profile.email %}<SPAN STYLE="font-weight:bold">Email: </SPAN><a href="mailto:{{ page.profile.email | encode_email }}">{{ page.profile.email }}</a> {% endif %}
+	  {% if page.profile.office %}<SPAN STYLE="font-weight:bold">Office: </SPAN><a href="https://goo.gl/maps/v2phz62uELtJWprv7">{{ page.profile.office }}</a> {% endif %}
         </div>
       {% endif %}
     </div>
