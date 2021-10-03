@@ -1,11 +1,11 @@
 About:
-- 1. Add Expected Graduation date in correct formatting.
 - 1. Remove Talks, Projects page for now.
 - 1. Update news.
 - 1. Push the page to gatech.com/gururaj.
 - Update Selected Publications.
-- Add Favicon.
 - Check if color scheme can be changed to blue-based like prior homepage.
+- Add Expected Graduation date in correct formatting under Pic.
+**DONE** - Modify Favicon to something more generic.
 
 Publications:
 - 1. Add Bibtex and generate the publist
