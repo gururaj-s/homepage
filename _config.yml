@@ -152,7 +152,7 @@ scholar:
   locale: en
 
   source: /_bibliography/
-  bibliography: papers.bib
+  bibliography: [conf.bib, patent.bib, techreport.bib, workshop.bib]
   bibliography_template: bib
 
   replace_strings: true

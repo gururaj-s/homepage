@@ -11,27 +11,27 @@ nav: true
 ---
 
 <div class="publications">
-<h2>Conference</h2>
+<h3 class="pubtype">Conference</h3>
 {% for y in page.years_conf %}
-   <h2 class="year">{{y}}</h2> 
+   <h3 class="year">{{y}}</h3> 
    {% bibliography -f conf -q @*[year={{y}}]*%}   
 {% endfor %}
 
-<h2>Workshop</h2> 
+<h3 class="pubtype">Workshop</h3> 
 {% for y in page.years_workshop %}
-   <h2 class="year">{{y}}</h2> 
+   <h3 class="year">{{y}}</h3> 
   {% bibliography -f workshop -q @*[year={{y}}]*%} 
 {% endfor %}
 
-<h2>Technical Reports</h2> 
+<h3 class="pubtype">Technical Reports</h3> 
 {% for y in page.years_tr %}
-   <h2 class="year">{{y}}</h2> 
+   <h3 class="year">{{y}}</h3> 
   {% bibliography -f techreport -q @*[year={{y}}]*%} 
 {% endfor %}
 
-<h2>Patents</h2> 
+<h3 class="pubtype">Patents</h3> 
 {% for y in page.years_patent %}
-   <h2 class="year">{{y}}</h2> 
+   <h3 class="year">{{y}}</h3> 
   {% bibliography -f patent -q @*[year={{y}}]*%} 
 {% endfor %}
 

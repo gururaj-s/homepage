@@ -386,6 +386,22 @@ footer.sticky-bottom {
     margin-bottom: -2rem;
     text-align: right;
   }
+  h3.year {
+    color: $grey-color-light;
+    border-top: 1px solid $grey-color-light;
+    padding-top: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: -2rem;
+    text-align: right;
+  }
+  h3.pubtype {
+    margin-bottom: 1rem;
+    span {
+      font-size: 1.25rem;
+    }
+  }
+
+
   ol.bibliography {
     list-style: none;
     padding: 0;
@@ -414,7 +430,8 @@ footer.sticky-bottom {
         }
       }
       .title {
-        font-weight: bolder;
+          font-weight: bolder;
+	  margin-bottom: 0rem;
       }
       .author {
         a {
@@ -428,6 +445,10 @@ footer.sticky-bottom {
           border-bottom: 1px solid;
           font-style: normal;
         }
+	margin-bottom: 0rem;
+      }
+     .periodical {
+	  margin-bottom: 0rem;
       }
       .links {
         a.btn {
@@ -442,6 +463,7 @@ footer.sticky-bottom {
             border-color: var(--global-theme-color);
           }
         }
+	margin-bottom: 0rem;
       }
       .hidden {
         font-size: 0.875rem;
