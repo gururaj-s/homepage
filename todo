@@ -1,20 +1,27 @@
 About:
-- 1. Remove Talks, Projects page for now.
 - 1. Update news.
 - 1. Push the page to gatech.com/gururaj.
-- Update Selected Publications.
+- Reduce text in Intro
+- Remove Selected Publications.
 - Check if color scheme can be changed to blue-based like prior homepage.
 - Add Expected Graduation date in correct formatting under Pic.
 **DONE** - Modify Favicon to something more generic.
+**DONE** Remove Talks, Projects page for now.
 
 Publications:
-- 1. Add Bibtex and generate the publist
-- 1. Change color of my name & others.
-- Change color of links of others names to lightish gray (but keep their links)
-- Reduce the space each publication takes.
-- Change the color scheme such that tags are all solid color.
+- **DONE* Update the main Bibtex fields
+- **DONE** Update the Acronym
+- 1. Categorize by Type of Publication and then based on order in bib file.
+- 1. Awards.
+- 1. Fix Layouts (reduce space, increase width)
+- 1. Add metadata (like PDF, Slides, Trailer, Video, Code, DOI, News).
+- 1. Change color of my name & others names (light grey).
+- Add links of other co-authors
+- Change the color scheme of tags (solid color).
+**DONE**- Change Order of Names.
 
 Other Pages:
 - Awards
-- Teaching
+- Service
 - Projects
+- Teaching
