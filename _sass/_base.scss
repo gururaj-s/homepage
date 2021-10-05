@@ -432,6 +432,12 @@ footer.sticky-bottom {
       .title {
           font-weight: bolder;
 	  margin-bottom: 0rem;
+	  .doi{
+	      color: var(--global-text-color);
+	      &:hover {
+		  color: var(--global-theme-color);	
+              }
+          }
       }
       .author {
         a {
