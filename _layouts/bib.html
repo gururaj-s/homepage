@@ -12,7 +12,7 @@
   {% endif %}
   </div>
 
-  <div id="{{entry.key}}" class="col-sm-8">
+  <div id="{{entry.key}}" class="col-sm-9 tightbib">
     {% if entry.type == "thesis" %}
       {{reference}}
     {% else %}
@@ -77,7 +77,11 @@
         {{entry.year}}
       {% endif %}
       </div>
-    {% endif %}
+      {% endif %}
+
+      {% if entry.award %}
+      <div class="award">{{entry.award}} </div> 
+      {% endif %}
 
     <div class="links">
     {% if entry.abstract %}
@@ -132,6 +136,10 @@
     {% if entry.website %}
       <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
     {% endif %}
+    {% if entry.news1 %}
+      <a href="{{ entry.news1link }}" class="btn btn-sm z-depth-0" role="button" target="_blank">{{entry.news1}}</a>
+    {% endif %}
+      
     </div>
 
     <!-- Hidden abstract block -->

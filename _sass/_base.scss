@@ -364,7 +364,8 @@ footer.sticky-bottom {
 // Publications
 
 .publications {
-  margin-top: 2rem;
+    margin-top: 2rem;
+    width: 120%;
   h1 {
     color: var(--global-theme-color);
     font-size: 2rem;
@@ -406,7 +407,7 @@ footer.sticky-bottom {
     list-style: none;
     padding: 0;
     margin-top: 0;
-
+    font-size: 0.875rem;
     li {
       margin-bottom: 1rem;
       .abbr {
@@ -428,6 +429,9 @@ footer.sticky-bottom {
           color: var(--global-theme-color) !important;
           border: 1px solid var(--global-theme-color);
         }
+      }
+      .tightbib {
+	  margin-bottom: 0rem;
       }
       .title {
           font-weight: bolder;
@@ -455,7 +459,14 @@ footer.sticky-bottom {
       }
      .periodical {
 	  margin-bottom: 0rem;
-      }
+     }
+     .award {
+	 font-weight: bold;
+         color: var(--global-theme-color) !important;
+	 margin-top: 0.2rem;
+	 margin-bottom: 0.2rem;
+     }
+
       .links {
         a.btn {
           color: var(--global-text-color);
@@ -468,6 +479,7 @@ footer.sticky-bottom {
             color: var(--global-theme-color);
             border-color: var(--global-theme-color);
           }
+	  margin-bottom: 0rem;
         }
 	margin-bottom: 0rem;
       }
@@ -500,6 +512,7 @@ footer.sticky-bottom {
         -o-transition: 0.15s ease;
         transition: all 0.15s ease;
       }
+
       div.abstract.hidden {
         border: dashed 1px var(--global-bg-color);
       }

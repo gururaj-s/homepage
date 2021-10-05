@@ -1,4 +1,4 @@
 <div class="publications">
-  <h2>selected publications</h2>
-  {% bibliography -f papers -q @*[selected=true]* %}
+  <h2>selected publications  <small><a class="sm_font" href="{{'/publications' | relative_url}}" target="_blank">(full list)</a> </small></h2>
+  {% bibliography -f conf -q @*[selected=true]* %}
 </div>
