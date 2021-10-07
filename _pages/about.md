@@ -11,7 +11,7 @@ profile:
   email: gururaj.s@gatech.edu 
   office: KACB 1210, Georgia Tech
 
-news: false  # includes a list of news items
+news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
@@ -20,11 +20,8 @@ I am a final-year PhD Student  *(expected graduation: Spring'22)* in [ECE](https
 
 **My research designs low cost and principled security solutions for hardware.** I am interested in a variety of topics at the intersection of computer architecture and security, including cache side-channel resilience, transient execution attacks and defenses in processors, rowhammer attacks and memory integrity, memory safety, and others.
 
-I have had the good fortune of interning at several other research labs:  
-* **Summer-2021:** [TU Graz](https://www.iaik.tugraz.at/), Austria with [Prof. Daniel Gruss](https://gruss.cc/), working on attacking memory compression and reverse-engineering new processor micro-architectures.
-* **Summer-2020:** [IBM Research](https://researcher.watson.ibm.com/researcher/view_group.php?id=2720), New York, working on hardware support for low cost memory-safety.
-* **Summer-2019:** [Microsoft](https://www.microsoft.com/en-us/research/), Redmond, working on principled defenses against processor-speculation attacks like Spectre and Meltdown.
-* **Summer-2018:** [Intel Labs Security Research](https://www.intel.com/content/www/us/en/research/overview.html), Hillsboro, working on low cost memory-safety with hardware/software co-design.
-* **Summer-2017:** [ARM Research](https://www.arm.com/resources/research), Austin, exploring low-overhead integrity solutions for DRAM memories.
+Recently, I spent Summer'21 with [Prof. Daniel Gruss](https://gruss.cc/)'s group at [TU Graz](https://www.iaik.tugraz.at/), Austria, working on attacking memory compression and reverse-engineering new processor micro-architectures.
 
-I received my B.Tech & M.Tech in [Electrical Engineering](http://www.ee.iitb.ac.in/) at [Indian Institute of Technology - Bombay](http://www.iitb.ac.in/), India, with a Minor Degree in [Computer Science](http://www.cse.iitb.ac.in/).
+During my PhD, I have been fortunate to intern at several industry labs, including [ARM Research](https://www.arm.com/resources/research) (Summer'17) on DRAM intergrity solutions, [Intel Labs - Security](https://www.intel.com/content/www/us/en/research/overview.html) (Summer'18) on low-cost memory safety, [Microsoft](https://www.microsoft.com/en-us/research/) (Summer'19) on principled defenses against processor-speculation attacks, and [IBM Research - Security](https://researcher.watson.ibm.com/researcher/view_group.php?id=2720) (Summer'20) on hardware for memory-safety. 
+
+I received my B.Tech & M.Tech in [Electrical Engineering](http://www.ee.iitb.ac.in/) at [Indian Institute of Technology - Bombay](http://www.iitb.ac.in/), India, with a Minor in [Computer Science](http://www.cse.iitb.ac.in/).

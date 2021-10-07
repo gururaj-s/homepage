@@ -1,13 +1,14 @@
 About:
-- 1. Reduce text in Intro
 - 1. Update news.
 - 1. Push the page to gatech.com/gururaj (add CNAME).
 - 1. Add Google Tracker
+- Check if Dark mode can be enabled?
 - Check if color scheme can be changed to blue-based like prior homepage.
 - Add Expected Graduation date in correct formatting under Pic.
-**DONE** - Modify Favicon to something more generic.
+**DONE** Modify Favicon to something more generic.
 **DONE** Remove Talks, Projects page for now.
-**DONE**Add Selected Publications.
+**DONE** Add Selected Publications.
+**DONE** Reduce text in Intro
 
 Publications:
 - **DONE* Update the main Bibtex fields
