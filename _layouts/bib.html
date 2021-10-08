@@ -78,11 +78,12 @@
       {% endif %}
       </div>
       {% endif %}
-
+      {% if entry.equal_contribution %}
+      <div class="eqcontr"><small>*equal contribution lead authors</small></div> 
+      {% endif %}
       {% if entry.award %}
       <div class="award">{{entry.award}} </div> 
       {% endif %}
-
     <div class="links">
     {% if entry.abstract %}
       <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
