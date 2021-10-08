@@ -145,7 +145,7 @@ github: [metadata]
 
 scholar:
 
-  last_name: Saileshwar
+  last_name: [Saileshwar,Saileshwar*]
   first_name: [Gururaj, G.]
 
   style: apa
