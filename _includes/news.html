@@ -1,19 +1,46 @@
 <div class="news">
-  <h2>news</h2>
-  {% if site.data.news  %}
-    <div class="table-responsive">
+  <h2>news <small><span onClick="toggle('hide');" class="span-link">(full list)</span></small> </h2> 
+
+   <script>
+        function toggle(thisname) {
+
+           tr=document.getElementsByTagName('tr')
+
+           for (i=0;i<tr.length;i++){
+              if (tr[i].getAttribute(thisname)){
+                 if ( tr[i].style.display=='none' ){
+                    tr[i].style.display = '';
+                 }
+              else {
+                 tr[i].style.display = 'none';
+                 }
+              }
+           }
+        }
+   </script>
+   
+  {% if site.data.news  %}  
+  <div class="table-responsive">
       <table class="table table-sm table-borderless">
       {% assign news = site.data.news %}
       {% for item in news limit: site.news_limit %}
         <tr>
           <th scope="row">{{ item.date | date: "%b, %Y" }}</th>
           <td>
-           {{ item.headline }}
+            {{ item.headline }}
           </td>
         </tr>
-      {% endfor %}
+	{% endfor %}
+	{% for item in news offset: site.news_limit %}
+        <tr hide="Yes" style="display: none;">
+          <th scope="row">{{ item.date | date: "%b, %Y" }}</th>
+          <td>
+            {{ item.headline }}
+          </td>
+        </tr>
+	{% endfor %}
       </table>
-    </div>
+  </div>
   {% else %}
     <p>No news so far...</p>
   {% endif %}

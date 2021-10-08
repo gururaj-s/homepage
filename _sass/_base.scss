@@ -188,21 +188,40 @@ blockquote {
 
 // News
 
+.news span {
+    color: var(--global-theme-color);
+    &:hover {
+	color: var(--global-theme-color);
+	text-decoration: underline;
+	cursor: pointer;
+    }
+
+}
+           
+
 .news table td {
   font-size: 1rem;
   color: var(--global-text-color);
+  padding: 1px;
+  margin: 0px;
 }
 
 .news table th {
   color: var(--global-text-color);
+  padding: 1px;
+  margin: 0px;
 }
 
+.news table-responsive {
+    overflow-y: hidden
+}
 // Social (bottom)
 
 .social {
   text-align: center;
   .contact-icons {
-    font-size: 4rem;
+    padding-top: 2rem;
+    font-size: 2rem;
     a {
       i::before {
         color: var(--global-text-color);

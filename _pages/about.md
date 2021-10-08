@@ -2,8 +2,8 @@
 layout: about
 title: about
 permalink: /
-description: <SPAN STYLE="font-weight:bold">Research Areas - Computer Architecture and Security.</SPAN><br> <a href="https://memlab.ece.gatech.edu/">Memory Systems Lab</a>, <a href="https://www.ece.gatech.edu/">Georgia Tech</a>.
-#<SPAN STYLE="font-weight:bold">Affiliation</SPAN> - <a href="https://memlab.ece.gatech.edu/">Memory Systems Lab</a>, <a href="https://www.ece.gatech.edu/">Georgia Tech</a>. <br><SPAN STYLE="font-weight:bold">Interests</SPAN> - Computer Architecture and Security.     
+description: <SPAN STYLE="font-weight:bold">Research Areas - Computer Architecture and Security.</SPAN><br> <a href="https://memlab.ece.gatech.edu/">Memory Systems Lab</a>, <a href="https://www.ece.gatech.edu/">Georgia Tech</a>
+#<SPAN STYLE="font-weight:bold">Affiliation</SPAN> - <a href="https://memlab.ece.gatech.edu/">Memory Systems Lab</a>, <a href="https://www.ece.gatech.edu/">Georgia Tech</a>. <br><SPAN STYLE="font-weight:bold">Interests</SPAN> - Computer Architecture and Security     
 
 profile:
   align: right
