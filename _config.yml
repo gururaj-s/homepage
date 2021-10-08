@@ -15,9 +15,9 @@ footer_text: >
 icon: /assets/img/favicon_book.png
 use_custom_favicon: true # if this is true, you can set favicon path instead of using default emoji
 
-url:  # the base hostname & protocol for your site
-baseurl: /al-folio # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+url: https://gururaj-s.github.io # the base hostname & protocol for your site
+baseurl: #/al-folio # the subpath of your site, e.g. /blog/
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
