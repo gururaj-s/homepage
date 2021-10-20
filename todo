@@ -1,26 +1,28 @@
 About:
--1. News links to be added.
--1. Move picture up.
-- 1. Push the page to gatech.com/gururaj (add CNAME).
-- 1. Add Google Tracker
-- Check if color scheme can be changed to blue-based like prior homepage.
+- Full list move to "..more"
+- Edit text very little if possible.
 - Add Expected Graduation date in correct formatting under Pic.
+
+**DONE** -1. Add Google Tracker
+**DONE**- Check if color scheme can be changed to blue-based like prior homepage.
 **DONE** Modify Favicon to something more generic.
 **DONE** Remove Talks, Projects page for now.
 **DONE** Add Selected Publications.
 **DONE** Reduce text in Intro
 **DONE**- Check if Dark mode can be enabled?
+**DONE**- Push the page to gatech.com/gururaj
+**DONE**- News links to be added.
 
 Publications:
-**DONE**- 1. Update news.
+- Change color of my name & others names (light grey).
+- Add links to other co-authors
+- **DONE**- 1. Update news.
 - **DONE* Update the main Bibtex fields
 - **DONE** Change Order of Names.
 - **DONE** Update the Acronym
 - **DONE** Categorize by Type of Publication and then based on order in bib file.
 - **DONE** Fix Layouts (reduce space, increase width)
 - **DONE** Add metadata (like PDF, Slides, Video, Code, Html, News, Awards).
-- Change color of my name & others names (light grey).
-- Add links to other co-authors
 
 Other Pages:
 - Awards
