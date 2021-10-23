@@ -4,7 +4,9 @@
 
 <title>
 {% if site.title == "blank" %}
-  {{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+{{ site.first_name }} {{ site.middle_name }} {{ site.last_name }}
+{% elsif page.title == "about" %}
+{{ site.first_name }}'s Homepage
 {% else %}
   {{ site.title }}
 {% endif %}
