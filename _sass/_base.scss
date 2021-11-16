@@ -51,12 +51,13 @@ blockquote {
 .citation, .citation-number {
   color: var(--global-theme-color);
 }
-
 // Profile
 
 .profile {
   margin-left: 1rem;
   width: 100%;
+  margin-bottom: 0px;
+  margin-top: 0px;
 
   .address {
     margin-bottom: 5px;
