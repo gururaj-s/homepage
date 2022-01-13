@@ -23,22 +23,18 @@
   <div class="table-responsive">
       <table class="table table-sm table-borderless">
       {% assign news = site.data.news %}
-      {% for item in news limit: site.news_limit %}
+      {% for item in news %}
+        {% if item.show == 1%}
         <tr>
-          <th scope="row">{{ item.date | date: "%b, %Y" }}</th>
-          <td>
-            {{ item.headline }}
-          </td>
-        </tr>
-	{% endfor %}
-	{% for item in news offset: site.news_limit %}
+        {% else %}
         <tr hide="Yes" style="display: none;">
+        {% endif %}
           <th scope="row">{{ item.date | date: "%b, %Y" }}</th>
           <td>
             {{ item.headline }}
           </td>
         </tr>
-	{% endfor %}
+      {% endfor %}
       </table>
   </div>
   {% else %}
