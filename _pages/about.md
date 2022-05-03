@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD candidate *(expected graduation: May'22)* in [ECE](https://www.ece.gatech.edu/) at [Georgia Tech](http://www.gatech.edu/), USA, advised by [Prof. Moinuddin Qureshi](https://www.cc.gatech.edu/~moin/).  My research interests in computer architecture and security include cache side-channels, transient execution attacks, Rowhammer attacks, DRAM integrity, memory safety and fuzzing.
+I am a PhD candidate *(expected graduation: August'22)* in [ECE](https://www.ece.gatech.edu/) at [Georgia Tech](http://www.gatech.edu/), USA, advised by [Prof. Moinuddin Qureshi](https://www.cc.gatech.edu/~moin/).  My research interests in computer architecture and security include cache side-channels, transient execution attacks, Rowhammer attacks, DRAM integrity, memory safety and fuzzing.
 
 ---
  **<span style="color:green">I AM ON THE ACADEMIC JOB MARKET! </span>**  
