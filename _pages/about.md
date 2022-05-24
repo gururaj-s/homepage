@@ -16,15 +16,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD candidate *(expected graduation: August'22)* in [ECE](https://www.ece.gatech.edu/) at [Georgia Tech](http://www.gatech.edu/), USA, advised by [Prof. Moinuddin Qureshi](https://www.cc.gatech.edu/~moin/).  My research interests in computer architecture and security include cache side-channels, transient execution attacks, Rowhammer attacks, DRAM integrity, memory safety and fuzzing.
-
----
- **<span style="color:green">I AM ON THE ACADEMIC JOB MARKET! </span>**  
-\[[CV]({{ 'cv.gs.pdf' | prepend: '/packet/' | relative_url }})\] \[[Research Statement]({{ 'research.stmt.gs.pdf' | prepend: '/packet/' | relative_url }})\] \[[Teaching Statement]({{ 'teaching.stmt.gs.pdf' | prepend: '/packet/' | relative_url }})\]  \[[Diversity Statement]({{ 'diversity.stmt.gs.pdf' | prepend: '/packet/' | relative_url }})\]
+I am a PhD candidate in [ECE](https://www.ece.gatech.edu/) at [Georgia Tech](http://www.gatech.edu/), USA, advised by [Prof. Moinuddin Qureshi](https://www.cc.gatech.edu/~moin/).  My research interests in computer architecture and security include cache side-channels, transient execution attacks, Rowhammer attacks, DRAM integrity, memory safety and fuzzing.
 
 ---
 
 *My research envisions a future where hardware is secure and free from vulnerabilities, and where trustworthy hardware enables low-cost pervasive security for software systems.*
+
+---
 
 **My research has enabled principled security for future hardware and systems at several layers:**
 * **Cache memories**: Enabled the fastest known *cache timing attacks* \[[1]({{ 'ASPLOS21_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }})\], *randomized cache defenses* \[[2]({{ 'SEC21_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }})\] ending an arms race, and one of the first academic *hardware defenses against Spectre* \[[3]({{ 'MICRO19_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }})\].
