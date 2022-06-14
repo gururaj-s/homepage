@@ -24,8 +24,16 @@
 
 // Profile
 .profile {
+    float: right;
+    width: 0px;
+    margin-left: 0rem;
   img {
-    width: 100%;
+      width: 70%;
+      float: right;
+  }
+  .side-below-img {
+      width: 70%;
+      float: right;
   }
 }
 

@@ -16,17 +16,17 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
+<div style="max-width: 70%; padding: 10px; border: 2px solid red;">
+  <h5> <font color="rgb(0, 42, 92)"><b>I will join the University of Toronto - Computer Science as an Assistant Professor in Fall 2023.</b></font><br></h5>
+  <h6 class="mb-0"> <font color="rgb(0, 42, 92)">I am looking for motivated PhD students to join my group at UofT. Interested? Drop me a note at gururaj.s@gatech.edu.</font><br></h6>
+</div>
+
 I am a PhD candidate in [ECE](https://www.ece.gatech.edu/) at [Georgia Tech](http://www.gatech.edu/), USA, advised by [Prof. Moinuddin Qureshi](https://www.cc.gatech.edu/~moin/).  My research interests in computer architecture and security include cache side-channels, transient execution attacks, Rowhammer attacks, DRAM integrity, memory safety and fuzzing.
 
----
-  <h5> <font color="rgb(0, 42, 92)"><b>I will join the University of Toronto - Dept of Computer Science as an Assistant Professor in Fall 2023.</b></font><br></h5>
-  <h6 class="mb-0"> <font color="rgb(0, 42, 92)"><b>I am looking for motivated PhD students to join my group at UofT. Interested? Please drop me a note at gururaj.s@gatech.edu.</b></font><br></h6>
----
-
 **My research has enabled principled security for future hardware and systems at several layers:**
-* **Cache memories**: Enabled the fastest known *cache timing attacks* \[[1]({{ 'ASPLOS21_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }})\], *randomized cache defenses* \[[2]({{ 'SEC21_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }})\] ending an arms race, and one of the first academic *hardware defenses against Spectre* \[[3]({{ 'MICRO19_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }})\].
-* **DRAM memories**: Enabled *DRAM integrity solutions* \[[4]({{ 'HPCA18_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }}), [5]({{ 'MICRO18_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }})\] that protect against physical attacks, and *principled Rowhammer mitigations* for current and emerging attacks like Half-Double and Blacksmith.
-* **Software reliability**: Enabled hardware support for low-cost *memory safety* \[[6]({{ 'DSN21_Boivie.pdf' | prepend: '/assets/pdf/' | relative_url }})\] and *fuzzing* \[[7]({{ 'CCS21_Ding.pdf' | prepend: '/assets/pdf/' | relative_url }})\] that makes software resilient to bugs causing a large majority of current vulnerabilities. 
+* **Cache Side-Channels**: Enabled the fastest known cache timing attacks \[[1]({{ 'ASPLOS21_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }})\], randomized cache defenses \[[2]({{ 'SEC21_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }})\] that end an arms race, and one of the first academic hardware defenses against Spectre \[[3]({{ 'MICRO19_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }})\].
+* **DRAM Security**: Enabled practical  mitigations for DRAM Rowhammer attacks \[[6]({{ 'ASPLOS22_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }}), [7]({{ 'ISCA22_Qureshi.pdf' | prepend: '/assets/pdf/' | relative_url }})\] and designed secure memories \[[4]({{ 'HPCA18_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }}), [5]({{ 'MICRO18_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }})\] for protection against physical attacks.
+* **Software Reliability**: Enabled hardware support for low-cost memory safety \[[8]({{ 'DSN21_Boivie.pdf' | prepend: '/assets/pdf/' | relative_url }})\] and fuzzing \[[9]({{ 'CCS21_Ding.pdf' | prepend: '/assets/pdf/' | relative_url }})\] to make software resilient to bugs causing a majority of current vulnerabilities. 
 
 [//]: # (**My research designs low cost and principled security solutions for hardware.** I am interested in a variety of topics at the intersection of computer architecture and security, including cache side-channel resilience, transient execution attacks and defenses in processors, rowhammer attacks and memory integrity, memory safety, and others. )
 
@@ -34,6 +34,6 @@ I am a PhD candidate in [ECE](https://www.ece.gatech.edu/) at [Georgia Tech](htt
 
 [//]: # (During my PhD, I have been fortunate to intern at several industry labs, including [ARM Research](https://www.arm.com/resources/research) (Summer'17) on DRAM integrity solutions, [Intel Labs - Security](https://www.intel.com/content/www/us/en/research/overview.html) (Summer'18) on low-cost memory safety, [Microsoft](https://www.microsoft.com/en-us/research/) (Summer'19) on principled defenses against processor-speculation attacks, and [IBM Research - Security](https://researcher.watson.ibm.com/researcher/view_group.php?id=2720) (Summer'20) on hardware for memory-safety. )
 
-For my work, I have been awarded an **IEEE MICRO Top Picks Honorable Mention**, the **Georgia Tech (IISP) Cybersecurity Fellowship**, and the **Georgia Tech (ECE) Bourne Fellowship**.
+My work has been awarded an **IEEE MICRO Top Picks Honorable Mention**, and been supported in part by **GT IISP Cybersecurity Fellowship**, and  **GT ECE Bourne Fellowship**.
 
 I received my B.Tech & M.Tech in [Electrical Engineering](http://www.ee.iitb.ac.in/) at [Indian Institute of Technology - Bombay](http://www.iitb.ac.in/), India.
