@@ -19,9 +19,8 @@ social: true  # includes social icons at the bottom of the page
 I am a PhD candidate in [ECE](https://www.ece.gatech.edu/) at [Georgia Tech](http://www.gatech.edu/), USA, advised by [Prof. Moinuddin Qureshi](https://www.cc.gatech.edu/~moin/).  My research interests in computer architecture and security include cache side-channels, transient execution attacks, Rowhammer attacks, DRAM integrity, memory safety and fuzzing.
 
 ---
-
-*My research envisions a future where hardware is secure and free from vulnerabilities, and where trustworthy hardware enables low-cost pervasive security for software systems.*
-
+  <h5> <font color="rgb(0, 42, 92)"><b>I will join the University of Toronto - Dept of Computer Science as an Assistant Professor in Fall 2023.</b></font><br></h5>
+  <h6 class="mb-0"> <font color="rgb(0, 42, 92)"><b>I am looking for motivated PhD students to join my group at UofT. Interested? Please drop me a note at gururaj.s@gatech.edu.</b></font><br></h6>
 ---
 
 **My research has enabled principled security for future hardware and systems at several layers:**
