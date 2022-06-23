@@ -16,10 +16,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-<div style="max-width: 70%; padding: 10px; border: 2px solid red;">
-  <h5> <font color="rgb(0, 42, 92)"><b>I will join the University of Toronto - Computer Science as an Assistant Professor in Fall 2023.</b></font><br></h5>
-  <h6 class="mb-0"> <font color="rgb(0, 42, 92)">I am looking for motivated PhD students to join my group at UofT. Interested? Drop me a note at gururaj.s@gatech.edu.</font><br></h6>
-</div>
+<p style="max-width: 70%; padding: 10px; border: 2px solid red;">
+ <font size="+1" color="rgb(0, 42, 92)"><b>I will join the University of Toronto - Computer Science as an Assistant Professor in Fall 2023.</b></font><br>
+ <font color="rgb(0, 42, 92)">I am looking for motivated PhD students to join my group at UofT. Interested? Drop me a note at gururaj.s@gatech.edu.</font><br>
+</p>
 
 I am a PhD candidate in [ECE](https://www.ece.gatech.edu/) at [Georgia Tech](http://www.gatech.edu/), USA, advised by [Prof. Moinuddin Qureshi](https://www.cc.gatech.edu/~moin/).  My research interests in computer architecture and security include cache side-channels, transient execution attacks, Rowhammer attacks, DRAM integrity, memory safety and fuzzing.
 
