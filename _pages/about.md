@@ -2,28 +2,25 @@
 layout: about
 title: about
 permalink: /
-description: <SPAN STYLE="font-weight:bold">Research Areas - Computer Architecture and Systems Security.</SPAN><br> <a href="https://memlab.ece.gatech.edu/">Memory Systems Lab</a>, <a href="https://www.ece.gatech.edu/">Georgia Tech</a>
-#<SPAN STYLE="font-weight:bold">Affiliation</SPAN> - <a href="https://memlab.ece.gatech.edu/">Memory Systems Lab</a>, <a href="https://www.ece.gatech.edu/">Georgia Tech</a>. <br><SPAN STYLE="font-weight:bold">Interests</SPAN> - Computer Architecture and Security     
+description: <SPAN STYLE="font-weight:bold">Research Areas - Computer Architecture and Systems Security.</SPAN><br> <SPAN><font color="rgb(0,42,92)"><b><a href="">Assistant Professor in Computer Science, University of Toronto</a></b></font> (starting Fall 2023)</SPAN><br> <SPAN><b>Post-Doctoral Researcher, NVIDIA Research</b> (2022 - now)</SPAN> 
 
 profile:
-  align: right
-  image: gs.jpg
-  email: gururaj.s@gatech.edu 
-  office: KACB 1210, Georgia Tech
+  align: right w
+  image: gs_2022.jpg
+  email: gururaj@cs.toronto.edu 
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-<p style="max-width: 70%; padding: 10px; border: 2px solid red;">
- <font size="+1" color="rgb(0, 42, 92)"><b>I will join the University of Toronto - Computer Science as an Assistant Professor in Fall 2023.</b></font><br>
- <font color="rgb(0, 42, 92)">I am looking for motivated PhD students to join my group at UofT. Interested? Drop me a note at gururaj.s@gatech.edu.</font><br>
+<p>
+<hr style="height:2px;border-width:0;color:gray;background-color:gray;max-width: 900px; margin-left:0;">
+<font id="highlighted_text"><b>I am looking for motivated PhD students to join my group at the University of Toronto.</b></font> If you are interested in working with me and are excited about security for hardware and systems, please reach out to me and apply to the <a href="https://web.cs.toronto.edu/graduate/how-to-apply">UofT CS</a> graduate program.<br>
+<hr  style="height:2px;border-width:0;color:gray;background-color:gray;max-width: 900px; margin-left:0;">
 </p>
 
-I am a PhD candidate in [ECE](https://www.ece.gatech.edu/) at [Georgia Tech](http://www.gatech.edu/), USA, advised by [Prof. Moinuddin Qureshi](https://www.cc.gatech.edu/~moin/).  My research interests in computer architecture and security include cache side-channels, transient execution attacks, Rowhammer attacks, DRAM integrity, memory safety and fuzzing.
-
-**My past research has improved the security for computing hardware and systems in several ways:**
+My research focuses on improving the security for computing hardware and systems. My research interests include cache side-channels, transient execution attacks, Rowhammer attacks, DRAM integrity, memory safety and fuzzing. Some of my research contributions include:
 * **Cache Side-Channels**: Enabled the fastest known cache timing attacks \[[1]({{ 'ASPLOS21_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }})\], randomized cache defenses \[[2]({{ 'SEC21_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }})\] that end an arms race, and one of the first academic hardware defenses against Spectre \[[3]({{ 'MICRO19_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }})\].
 * **DRAM Security**: Enabled practical  mitigations for DRAM Rowhammer attacks \[[4]({{ 'ASPLOS22_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }}), [5]({{ 'ISCA22_Qureshi.pdf' | prepend: '/assets/pdf/' | relative_url }})\] and designed secure memories \[[6]({{ 'HPCA18_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }}), [7]({{ 'MICRO18_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }})\] for protection against physical attacks.
 * **Software Reliability**: Enabled hardware support for low-cost memory safety \[[8]({{ 'DSN21_Boivie.pdf' | prepend: '/assets/pdf/' | relative_url }})\] and fuzzing \[[9]({{ 'CCS21_Ding.pdf' | prepend: '/assets/pdf/' | relative_url }})\] to make software resilient to bugs causing a majority of current vulnerabilities. 
@@ -34,6 +31,6 @@ I am a PhD candidate in [ECE](https://www.ece.gatech.edu/) at [Georgia Tech](htt
 
 [//]: # (During my PhD, I have been fortunate to intern at several industry labs, including [ARM Research](https://www.arm.com/resources/research) (Summer'17) on DRAM integrity solutions, [Intel Labs - Security](https://www.intel.com/content/www/us/en/research/overview.html) (Summer'18) on low-cost memory safety, [Microsoft](https://www.microsoft.com/en-us/research/) (Summer'19) on principled defenses against processor-speculation attacks, and [IBM Research - Security](https://researcher.watson.ibm.com/researcher/view_group.php?id=2720) (Summer'20) on hardware for memory-safety. )
 
-My work has been awarded an **IEEE MICRO Top Picks Honorable Mention**, and been supported in part by **GT IISP Cybersecurity Fellowship**, and  **GT ECE Bourne Fellowship**.
+My work has been awarded an **IEEE HOST Best PhD Dissertation Award**,  an **IEEE MICRO Top Picks Honorable Mention**, and been supported in part by a **GT IISP Cybersecurity Fellowship** and a **GT ECE Bourne Fellowship**.
 
-I received my B.Tech & M.Tech in [Electrical Engineering](http://www.ee.iitb.ac.in/) at [Indian Institute of Technology - Bombay](http://www.iitb.ac.in/), India.
+I received my PhD in [Electrical and Computer Engineering](https://www.ece.gatech.edu/) at [Georgia Tech](http://www.gatech.edu/), USA, while being advised by [Prof. Moinuddin Qureshi](https://www.cc.gatech.edu/~moin/), and received my B.Tech & M.Tech in [Electrical Engineering](http://www.ee.iitb.ac.in/) from [Indian Institute of Technology - Bombay](http://www.iitb.ac.in/), India.
