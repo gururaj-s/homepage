@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <SPAN STYLE="font-weight:bold">Research Areas - Computer Architecture and Systems Security.</SPAN><br> <SPAN><font color="rgb(0,42,92)"><b><a href="">Assistant Professor in Computer Science, University of Toronto</a></b></font> (starting Fall 2023)</SPAN><br> <SPAN><b>Post-Doctoral Researcher, NVIDIA Research</b> (2022 - now)</SPAN> 
+description: <SPAN STYLE="font-weight:bold">Research Areas - Computer Architecture and Systems Security.</SPAN><br> <SPAN><font color="rgb(0,42,92)"><b><a href="http://csng.cs.toronto.edu/faculty.php#:~:text=Gururaj">Assistant Professor in Computer Science, University of Toronto</a></b></font> (starting Fall 2023)</SPAN><br> <SPAN><b>Post-Doctoral Researcher, NVIDIA Research</b> (2022 - now)</SPAN> 
 
 profile:
   align: right w
