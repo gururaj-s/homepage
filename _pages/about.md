@@ -31,6 +31,6 @@ My research focuses on improving the security for computing hardware and systems
 
 [//]: # (During my PhD, I have been fortunate to intern at several industry labs, including [ARM Research](https://www.arm.com/resources/research) (Summer'17) on DRAM integrity solutions, [Intel Labs - Security](https://www.intel.com/content/www/us/en/research/overview.html) (Summer'18) on low-cost memory safety, [Microsoft](https://www.microsoft.com/en-us/research/) (Summer'19) on principled defenses against processor-speculation attacks, and [IBM Research - Security](https://researcher.watson.ibm.com/researcher/view_group.php?id=2720) (Summer'20) on hardware for memory-safety. )
 
-My work has been awarded an **IEEE HOST Best PhD Dissertation Award**,  an **IEEE MICRO Top Picks Honorable Mention**, and been supported in part by a **GT IISP Cybersecurity Fellowship** and a **GT ECE Bourne Fellowship**.
+My work has been awarded a **HPCA Best Paper Award**, **IEEE HOST Best PhD Dissertation Award**,  and a **IEEE MICRO Top Picks Honorable Mention**. My PhD was partly supported by a **GT Cybersecurity Fellowship** and a **GT Bourne Fellowship**.
 
 I received my PhD in [Electrical and Computer Engineering](https://www.ece.gatech.edu/) at [Georgia Tech](http://www.gatech.edu/), USA, while being advised by [Prof. Moinuddin Qureshi](https://www.cc.gatech.edu/~moin/), and received my B.Tech & M.Tech in [Electrical Engineering](http://www.ee.iitb.ac.in/) from [Indian Institute of Technology - Bombay](http://www.iitb.ac.in/), India.
