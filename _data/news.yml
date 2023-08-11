@@ -1,3 +1,11 @@
+- date: 30. October 2023
+  headline: "Serving as a <b>Workshop & Tutorial Chair</b> at <b>MICRO 2023</b>!"
+  show: 1
+
+- date: 30. June 2023
+  headline: "Awarded the <a href='https://www.sigarch.org/benefit/awards/acm-sigarch-ieee-cs-tcca-outstanding-dissertation-award/'>ACM SIGARCH/IEEE CS TCCA Outstanding Dissertation Award (Honorable Mention)</a> at ISCA'23!"
+  show: 1
+
 - date: 27. February 2023
   headline: "Our paper <a href='https://gururaj-s.github.io/assets/pdf/HPCA23_Woo.pdf'>Scalable and Secure Row-Swap</a> at HPCA-2023 received the <b>Best Paper Award</b>!"
   show: 1
@@ -5,14 +13,14 @@
 - date: 15. September 2022
   headline: "Serving as <b>Co-Chair</b> of the <b>Artifact Evaluation Committee</b> at <b>ASPLOS 2023</b>."
   show: 1
-
+  
 - date: 10. August 2022
   headline: "<b>SQUIP attack</b> (<a href='https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1039'>CVE-2021-46778</a>), discovered with collaborators at TU Graz, is public. (<a href='https://www.techradar.com/news/new-vulnerability-in-amd-ryzen-cpus-could-seriously-jeopardize-performance'>techradar</a>, <a href='https://www.tomshardware.com/news/new-vulnerability-affects-all-amd-zen-cpus'>toms hardware</a>, <a href='https://thehackernews.com/2022/08/pic-and-squip-vulnerabilities-found-in.html'>hacker news</a>, ...)"
   show: 1
 
 - date: 29. June 2022
   headline: "Awarded the <a href='https://www.ece.gatech.edu/news/659674/research-hardware-security-gururaj-saileshwar-wins-best-dissertation-award'>Best PhD Dissertation Award</a> at <b>IEEE HOST 2022</b>."
-  show: 1
+  show: 0
 
 - date: 25. March 2022
   headline: "Invited to serve on the <b>Program Committee (PC)</b> for <b>RAID 2022</b>."
@@ -24,7 +32,7 @@
   
 - date: 5. October 2021
   headline: "Invited to serve on the <b>External Review Committee (ERC)</b> for <b>ISCA 2022</b>."
-  show: 1
+  show: 0
 
 - date: 5. May 2021
   headline: "Our paper on <a href='https://gururaj-s.github.io/assets/pdf/WCAE21_Garza.pdf'>Mentoring in Computer Architecture</a> is presented in <b>WCAE at ISCA 2021<b>."
@@ -36,7 +44,7 @@
   
 - date: 31. March 2021
   headline: "Invited to serve on the <b>Program Committee (PC)</b> for <b>IEEE S&P (Oakland) 2022</b>."
-  show: 1
+  show: 0
   
 - date: 22. March 2021
   headline: "<a href='https://gururaj-s.github.io/assets/pdf/CCS21_Ding.pdf'>Hardware Support for Fuzzing</a> accepted at <b>CCS 2021</b>!"
@@ -44,7 +52,7 @@
   
 - date: 5. March 2021
   headline: "Recognized as <b>Distinguished Reviewer</b> in the Shadow PC of <b>IEEE S&P (Oakland) 2021</b>."
-  show: 1
+  show: 0
   
 - date: 18. February 2021
   headline: "<a href='https://gururaj-s.github.io/assets/pdf/SEC21_Saileshwar.pdf'>MIRAGE</a>, a principled defense vs cache attacks accepted at <b>USENIX Security 2021</b> [<a href='https://github.com/gururaj-s/mirage'>Github</a>]."
@@ -56,7 +64,7 @@
     
 - date: 6. January 2021
   headline: "Awarded <b>Georgia Tech IISP Cybersecurity Fellowship</b>!"
-  show: 1
+  show: 0
 
 - date: 10. November 2020
   headline: "Invited to present MIRAGE at IBM Research's Future of Comp-Arch Workshop 2020."
