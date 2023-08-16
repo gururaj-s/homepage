@@ -1,4 +1,8 @@
-- date: 30. October 2023
+- date: 30. August 2023
+  headline: "Our <b>CAL-2023</b> paper  <a href='https://ieeexplore.ieee.org/abstract/document/10190227'>Mirage of breaking MIRAGE</a> highlights modeling pitfalls in recent &#8220attacks&#8221, and shows <b>MIRAGE is still unbroken</b>!"
+  show: 1
+
+- date: 1. August 2023
   headline: "Serving as a <b>Workshop & Tutorial Chair</b> at <b>MICRO 2023</b>!"
   show: 1
 
@@ -12,7 +16,7 @@
 
 - date: 15. September 2022
   headline: "Serving as <b>Co-Chair</b> of the <b>Artifact Evaluation Committee</b> at <b>ASPLOS 2023</b>."
-  show: 1
+  show: 0
   
 - date: 10. August 2022
   headline: "<b>SQUIP attack</b> (<a href='https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1039'>CVE-2021-46778</a>), discovered with collaborators at TU Graz, is public. (<a href='https://www.techradar.com/news/new-vulnerability-in-amd-ryzen-cpus-could-seriously-jeopardize-performance'>techradar</a>, <a href='https://www.tomshardware.com/news/new-vulnerability-affects-all-amd-zen-cpus'>toms hardware</a>, <a href='https://thehackernews.com/2022/08/pic-and-squip-vulnerabilities-found-in.html'>hacker news</a>, ...)"
