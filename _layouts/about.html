@@ -30,8 +30,16 @@ layout: default
       {{ content }}
     </div>
 
+    {% if page.teaching %}
+    {% include teaching.html %}
+    {% endif %}
+    
     {% if page.news %}
     {% include news.html %}
+    {% endif %}
+
+    {% if page.service %}
+    {% include service.html %}
     {% endif %}
 
     {% if page.selected_papers %}
