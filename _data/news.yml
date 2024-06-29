@@ -1,6 +1,10 @@
+- date: 30. June 2024
+  headline: "Our work, <a href=''>PrIDE</a>, the first secure and low cost in-DRAM mitigation against Rowhammer attacks is presented at <b>ISCA'24</b>."
+  show: 1
+
 - date: 30. August 2023
   headline: "Our <b>CAL-2023</b> paper  <a href='https://ieeexplore.ieee.org/abstract/document/10190227'>Mirage of breaking MIRAGE</a> highlights modeling pitfalls in recent &#8220attacks&#8221, and shows <b>MIRAGE is still unbroken</b>!"
-  show: 1
+  show: 0
 
 - date: 1. August 2023
   headline: "Serving as a <b>Workshop & Tutorial Chair</b> at <b>MICRO 2023</b>!"
