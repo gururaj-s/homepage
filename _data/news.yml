@@ -1,3 +1,15 @@
+- date: 11. Feb 2025
+  headline: "Our work, MIRAGE (Usenix Security 2021) is awarded a <b>Top Pick in Hardware and Embedded Security</b>!"
+  show: 1
+  
+- date: 1. Feb 2025
+  headline: "Our work, AMuLeT that tests Spectre countermeasures for leaks at design time is accepted at <b>ASPLOS 2025</b>!"
+  show: 1
+
+- date: 1. Feb 2025
+  headline: "Our work, QPRAC, a new attack and defense for PRAC-based Rowhammer mitigations is accepted at <b>HPCA 2025</b>!"
+  show: 1
+  
 - date: 30. June 2024
   headline: "Our work, <a href='https://gururaj-s.github.io/assets/pdf/ISCA24_Jaleel.pdf'>PrIDE</a>, the first secure and low cost in-DRAM mitigation against Rowhammer attacks is presented at <b>ISCA'24</b>."
   show: 1
@@ -8,7 +20,7 @@
 
 - date: 1. August 2023
   headline: "Serving as a <b>Workshop & Tutorial Chair</b> at <b>MICRO 2023</b>!"
-  show: 1
+  show: 0
 
 - date: 30. June 2023
   headline: "Awarded the <a href='https://www.sigarch.org/benefit/awards/acm-sigarch-ieee-cs-tcca-outstanding-dissertation-award/'>ACM SIGARCH/IEEE CS TCCA Outstanding Dissertation Award (Honorable Mention)</a> at ISCA'23!"
@@ -16,7 +28,7 @@
 
 - date: 27. February 2023
   headline: "Our paper <a href='https://gururaj-s.github.io/assets/pdf/HPCA23_Woo.pdf'>Scalable and Secure Row-Swap</a> at HPCA-2023 received the <b>Best Paper Award</b>!"
-  show: 1
+  show: 0
 
 - date: 15. September 2022
   headline: "Serving as <b>Co-Chair</b> of the <b>Artifact Evaluation Committee</b> at <b>ASPLOS 2023</b>."
