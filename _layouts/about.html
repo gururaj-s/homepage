@@ -30,12 +30,12 @@ layout: default
       {{ content }}
     </div>
 
-    {% if page.teaching %}
-    {% include teaching.html %}
-    {% endif %}
-    
     {% if page.news %}
     {% include news.html %}
+    {% endif %}
+    
+    {% if page.teaching %}
+    {% include teaching.html %}
     {% endif %}
 
     {% if page.service %}
