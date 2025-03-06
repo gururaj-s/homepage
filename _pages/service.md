@@ -7,19 +7,13 @@ nav: true
 ---
 
 <div class="publications"> 
-<h3 class="pubtype">Reviewing</h3> 
+<h3 class="pubtype">Program Committees</h3> 
 
 <ul>
-  <li> Program Committees:
-  <ul>
-    <li> 2025: <li>MICRO'25, ISCA'25, HPCA'25.</li>
-    <li> 2024: <li>MICRO'24, RAID'24.</li>
-    <li> MICRO'23, DSN'23, RAID'23.</li>
-    <li> S&amp;P'22, RAID'22, ESORICS'22.</li>
-  </ul>
-  </li>
-  <li> External Review Committees: ISCA'22.</li>
-  <li> Shadow PC: IEEE S&P(Oakland)'21. <i>Recognized as Distinguished Reviewer</i>.</li>
+    <li> 2025: MICRO'25, ISCA'25, HPCA'25.</li>
+    <li> 2024: MICRO'24, RAID'24.</li>
+    <li> 2023: MICRO'23, DSN'23, RAID'23.</li>
+    <li> 2022: S&amp;P'22, RAID'22, ESORICS'22.</li>
 </ul>
 
 <h3 class="pubtype">Conference Organization</h3> 

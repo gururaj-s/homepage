@@ -1,3 +1,7 @@
+- date: 6. Mar 2025
+  headline: "<a href='https://gururaj-s.github.io/assets/pdf/HPCA25_Woo.pdf'>QPRAC</a> (HPCA 2025) is awarded the <b>Distinguished Artifact Award</b>!"
+  show: 1
+  
 - date: 11. Feb 2025
   headline: "Our work, MIRAGE (Usenix Security 2021) is awarded a <b>Top Pick in Hardware and Embedded Security</b>!"
   show: 1
@@ -12,7 +16,7 @@
   
 - date: 30. June 2024
   headline: "Our work, <a href='https://gururaj-s.github.io/assets/pdf/ISCA24_Jaleel.pdf'>PrIDE</a>, the first secure and low cost in-DRAM mitigation against Rowhammer attacks is presented at <b>ISCA'24</b>."
-  show: 1
+  show: 0
 
 - date: 30. August 2023
   headline: "Our <b>CAL-2023</b> paper  <a href='https://ieeexplore.ieee.org/abstract/document/10190227'>Mirage of breaking MIRAGE</a> highlights modeling pitfalls in recent &#8220attacks&#8221, and shows <b>MIRAGE is still unbroken</b>!"
