@@ -21,7 +21,9 @@ Jump to [Current Members](#current), [Alumni](#alumni).
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/students/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+<!--  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/students/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+-->
+  <img src="{{ member.photo | prepend: '/assets/img/students/' | relative_url }}" class="img-responsive" width="25%" style="float: left" />
   <h5>{{ member.name }}</h5>
   <i>{{ member.info }}</i><br>email: <a href="mailto:{{ member.email }}">{{ member.email }}</a>
   <ul style="overflow: hidden">
@@ -83,7 +85,7 @@ Jump to [Current Members](#current), [Alumni](#alumni).
 {% endif %}
 
 <div class="col-sm-6 clearfix alum">
-  <img src="{{ site.url }}{{ site.baseurl }}/assets/img/students/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ member.photo | prepend: '/assets/img/students/' | relative_url }}" class="img-responsive" width="25%" style="float: left" />
   <h5>{{ member.name }}</h5>
   <i>{{ member.info }}</i><br>email: <a href="mailto:{{ member.email }}">{{ member.email }}</a>
   <ul style="overflow: hidden">
