@@ -1,3 +1,7 @@
+- date: 10. July 2025
+  headline: Our SEC'25 paper on <b>Rowhammer Attacks on NVIDIA GPUs</b> is public! Check it out at <a href='www.gpuhammer.com'>www.gpuhammer.com</a>!
+  show: 1
+  
 - date: 6. Mar 2025
   headline: "<a href='https://gururaj-s.github.io/assets/pdf/HPCA25_Woo.pdf'>QPRAC</a> (HPCA 2025) is awarded the <b>Distinguished Artifact Award</b>!"
   show: 1
@@ -40,7 +44,7 @@
   
 - date: 10. August 2022
   headline: "<b>SQUIP attack</b> (<a href='https://www.amd.com/en/corporate/product-security/bulletin/amd-sb-1039'>CVE-2021-46778</a>), discovered with collaborators at TU Graz, is public. (<a href='https://www.techradar.com/news/new-vulnerability-in-amd-ryzen-cpus-could-seriously-jeopardize-performance'>techradar</a>, <a href='https://www.tomshardware.com/news/new-vulnerability-affects-all-amd-zen-cpus'>toms hardware</a>, <a href='https://thehackernews.com/2022/08/pic-and-squip-vulnerabilities-found-in.html'>hacker news</a>, ...)"
-  show: 1
+  show: 0
 
 - date: 29. June 2022
   headline: "Awarded the <a href='https://www.ece.gatech.edu/news/659674/research-hardware-security-gururaj-saileshwar-wins-best-dissertation-award'>Best PhD Dissertation Award</a> at <b>IEEE HOST 2022</b>."

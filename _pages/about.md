@@ -17,14 +17,16 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 <p>
-<hr style="height:2px;border-width:0;color:gray;background-color:gray;max-width: 900px; margin-left:0;">
-<font id="highlighted_text"><b>I am looking for motivated and ambitious PhD students to join my group at the University of Toronto.</b></font> If you find security for hardware and systems exciting, please reach out to me and apply to the UofT Computer Science or ECE graduate programs.<br>
-<hr  style="height:2px;border-width:0;color:gray;background-color:gray;max-width: 900px; margin-left:0;">
+<hr style="height:2px;border-width:0;color:gray;background-color:gray;max-width: 750px; margin-left:0;">
+<font id="highlighted_text"><b>I am looking for motivated PhD students to join my group at the University of Toronto.</b></font> If you find security exciting, please reach out and apply to the UofT CS/ECE graduate programs.<br>
+<hr  style="height:2px;border-width:0;color:gray;background-color:gray;max-width: 750px; margin-left:0;">
 </p>
 
-My research focuses on improving the security for computing hardware and systems. My research interests include microarchitectural security (cache side-channels, transient execution attacks, Rowhammer attacks), system security (memory safety and fuzzing) and security for machine learning systems (LLM side channels, data isolation). Our focus includes developing new attacks, defenses, and tools to automate security analysis.
+My research focuses on security for computing hardware and systems. My research interests include microarchitectural security (cache side-channels, transient execution attacks, Rowhammer attacks), system security (memory safety and fuzzing) and security for machine learning systems (LLM side channels, GPU Confidential Computing). 
 
 {% comment %}
+Our focus includes developing new attacks, defenses, and tools to automate security analysis.
+
 My research focuses on improving the security for computing hardware and systems. My research interests include cache side-channels, transient execution attacks, Rowhammer attacks, DRAM integrity, memory safety and fuzzing. Some of my research contributions include:
 * **Cache Side-Channels**: Enabled the fastest known cache timing attacks \[[1]({{ 'ASPLOS21_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }})\], randomized cache defenses \[[2]({{ 'SEC21_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }})\] that end an arms race, and one of the first academic hardware defenses against Spectre \[[3]({{ 'MICRO19_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }})\].
 * **DRAM Security**: Enabled practical  mitigations for DRAM Rowhammer attacks \[[4]({{ 'ASPLOS22_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }}), [5]({{ 'ISCA22_Qureshi.pdf' | prepend: '/assets/pdf/' | relative_url }})\] and designed secure memories \[[6]({{ 'HPCA18_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }}), [7]({{ 'MICRO18_Saileshwar.pdf' | prepend: '/assets/pdf/' | relative_url }})\] for protection against physical attacks.

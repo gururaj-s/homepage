@@ -1,0 +1,60 @@
+grad_curr:
+- name:  <a href='https://www.linkedin.com/in/shaopeng-lin/'>Chris (Shaopeng) Lin</a>
+  photo: chrislin.jpeg
+  info: PhD student, started August 2024
+  email: shaopeng.lin@mail.utoronto.ca
+  number_educ: 2
+  education1: B.Sc. 2024 University of Toronto
+  education2: GPU Security and Rowhammer Attacks
+
+- name:  <a href='https://www.linkedin.com/in/anthony-dimaggio/'>Anthony Dimaggio</a>
+  photo: anthony.jpeg
+  info: PhD student, starting August 2025
+  email: anthony.dimaggio@mail.utoronto.ca
+  number_educ: 2
+  education1: B.Sc. 2025 University of Toronto
+  education2: Private ML Inference, Confidential Computing
+
+- name:  <a href='https://www.linkedin.com/in/raghavst/'>Raghav Sharma</a>
+  photo: raghav.png
+  info: MSc student, started August 2024
+  email: theraghav.sharma@utoronto.ca
+  number_educ: 2
+  education1: B.Sc. 2023 University of Toronto
+  education2: Fully Homomorphic Encryption
+
+grad_alum:
+- name:  <a href='https://www.linkedin.com/in/fubof'>Brian Fu</a>
+  photo: brianfu.jpeg
+  info: MSc, August 2023 - May 2025
+  email: brian.fu@utoronto.ca
+  number_educ: 2
+  education1: Thesis - Fuzzing Spectre Mitigations for Leakages
+  education2: Next - PhD at Ruhr University of Bochum, Germany.
+
+undergrad_curr:
+- name: Joyce Qu
+  year: 3rd
+  subject: Rowhammer Attacks and Defenses
+  fund: University of Toronto Excellence Award (UTEA) - Summer 2025
+  pubs: Publications at USENIX Security 2025, ISCA 2025.
+
+- name: David Wei
+  year: 4th
+  subject: Side Channel Attacks on Speculative Decoding in LLMs
+  fund: NSERC Undergraduate Student Research Award - Summer 2025
+
+- name: Allison Lau
+  year: 4th
+  subject: Prompt Injection attacks on AI Agentic Systems
+  fund: NSERC Undergraduate Student Research Award - Summer 2025
+
+- name: Louis Ryan Tan
+  year: 3rd
+  subject: Prompt Injection attacks on AI Agentic Systems
+  fund: DCS Research Award - Summer 2025
+
+- name: Henry Chen
+  year: 3rd
+  subject: Fuzzing RISC-V CPUs for Side-Channels
+  fund: DCS Research Award - Summer 2025
