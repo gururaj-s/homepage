@@ -41,15 +41,15 @@ Using RCO’s own publicly released artifact, we could **not** reproduce their r
 
 ---
 
-#### 🔍 **Finding 2: RCO's Root Cause Claims Don’t Hold**
+#### 🔍 **Finding 2: RCO's Claims Don’t Hold**
 
 RCO attributes the leakage of the AES-Keys in the T-Table implementation in MIRAGE to:
 1. **AES last-round T-Table accesses** impacting cache occupancy of MIRAGE.
 2. This cache occupancy is **measurable by a subsequent attacker accessing its own cached array**, originally occupying 50% of the Last-level Cache, and **measuring its access time**.
 
-Thus, RCO claims that an attacker measuring its own access time, can perceive cache occupancy, and uncover the secret key based on its correlation with the cache occupancy. This raises the question:
+Thus, RCO claims that an attacker measuring its own access time, can perceive cache occupancy, and uncover the secret key based on its correlation with the cache occupancy.
 
-> How can different keys be distinguishable by cache occupancy and timing, when MIRAGE’s random evictions can vary occupancy and timings significantly across multiple runs of even the same plaintext encrypted by the same key?
+> However, we find that MIRAGE's random evictions cause significant timing variations across repeated encryptions of the same plaintext and key, making keys or ciphertexts indistinguishable based on timings (see Figure-3 below).
 
 ---
 
@@ -59,7 +59,7 @@ Thus, RCO claims that an attacker measuring its own access time, can perceive ca
 
 While Cache Occupancy (*O*) is a function of both Victim Accesses (*V*) and Global Evictions (*GE*), i.e., *O = f(V, GE)* in MIRAGE, RCO's assumption of a deterministic sequence of GEs each time artificially makes *O* trivially correlated with key-dependent memory accesses, *V*. However, this is not realistic as in a real hardware implementation, an attacker cannot reset the RNG state of the global evictions to a fixed state for each AES encryption.
 
-✅ **Our Fix: Correct modeling of MIRAGE requires randomizing the global eviction seed** per encryption (e.g., using `time()`).
+✅ **Our Fix: Correct modeling of MIRAGE requires randomizing the global eviction seed** per encryption (e.g., using `time()` or the more secure alternative for seeding, `rdseed32()` available in x86).
 
 After this fix, no correlations between the victim T-Table accesses in the last round and the attacker access times are observed.
 
