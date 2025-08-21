@@ -7,6 +7,7 @@ author: gururaj
 *Debunking Occupancy-based Side-Channel Attacks on Fully Associative Randomized Caches*  
 
 **Authors:** Chris Cao, Gururaj Saileshwar (University of Toronto)  
+[\[Paper\]](https://gururaj-s.github.io/assets/pdf/Yet-Another-Mirage.pdf) \[[Code](https://github.com/sith-lab/yet-another-mirage-of-breaking-mirage)\]
 
 ---
 
@@ -59,7 +60,7 @@ Thus, RCO claims that an attacker measuring its own access time, can perceive ca
 
 While Cache Occupancy (*O*) is a function of both Victim Accesses (*V*) and Global Evictions (*GE*), i.e., *O = f(V, GE)* in MIRAGE, RCO's assumption of a deterministic sequence of GEs each time artificially makes *O* trivially correlated with key-dependent memory accesses, *V*. However, this is not realistic as in a real hardware implementation, an attacker cannot reset the RNG state of the global evictions to a fixed state for each AES encryption.
 
-✅ **Our Fix: Correct modeling of MIRAGE requires randomizing the global eviction seed** per encryption (e.g., using `time()` or the more secure alternative for seeding, `rdseed32()` available in x86).
+✅ **Our Fix: Correct modeling of MIRAGE requires randomizing the global eviction seed** per encryption (e.g., using `std::random_device` on systems where a hardware-based entropy source is available).
 
 After this fix, no correlations between the victim T-Table accesses in the last round and the attacker access times are observed.
 
