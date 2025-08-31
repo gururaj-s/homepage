@@ -7,7 +7,7 @@ author: gururaj
 *Debunking Occupancy-based Side-Channel Attacks on Fully Associative Randomized Caches*  
 
 **Authors:** Chris Cao, Gururaj Saileshwar (University of Toronto)  
-\[[Paper]https://gururaj-s.github.io/assets/pdf/Yet-Another-Mirage.pdf)\] \[[Code](https://github.com/sith-lab/yet-another-mirage-of-breaking-mirage)\]
+\[[Paper](https://gururaj-s.github.io/assets/pdf/Yet-Another-Mirage.pdf)\] \[[Code](https://github.com/sith-lab/yet-another-mirage-of-breaking-mirage)\]
 
 ---
 
