@@ -2,6 +2,7 @@
 ---
 
 <div class="row">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <div class="col-sm-1 abbr">
   {% if entry.abbr %}
     {% if site.data.venues[entry.abbr] %}
@@ -82,7 +83,7 @@
       <div class="eqcontr"><small>*equal contribution lead authors</small></div> 
       {% endif %}
       {% if entry.award %}
-      <div class="award">{{entry.award}} </div> 
+      <div class="award"> <i class="fa-solid fa-trophy trophy"></i> {{entry.award}} </div> 
       {% endif %}
     <div class="links">
     {% if entry.abstract %}
