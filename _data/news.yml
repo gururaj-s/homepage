@@ -1,3 +1,11 @@
+- date: 28. Jan 2026
+  headline: Congratulations to Joyce Qu on receiving the <a href='https://cra.org/about/awards/outstanding-undergraduate-researcher-award/'>CRA Outstanding Undergraduate Researcher Award (Honorable Mention)</a>.
+  show: 1
+
+- date: 7. Nov 2025
+  headline: Our SEC'25 paper, GPUHammer, won the <a href='https://mlab.cyber.nyu.edu/csaw/finalists/#:~:text=%F0%9F%8F%86%20Best%20Paper%20in%20Technical%20Impact'>2025 CSAW Best Paper Award (North America)</a> in Technical Impact!
+  show: 1
+
 - date: 10. July 2025
   headline: Our SEC'25 paper on <b>Rowhammer Attacks on NVIDIA GPUs</b> is public! Check it out at <a href='https://gpuhammer.com/'>www.gpuhammer.com</a>!
   show: 1
