@@ -9,7 +9,7 @@ grad_curr:
 
 - name:  <a href='https://www.linkedin.com/in/anthony-dimaggio/'>Anthony Dimaggio</a>
   photo: anthony.jpeg
-  info: PhD student, starting August 2025
+  info: PhD student, started August 2025
   email: anthony.dimaggio@mail.utoronto.ca
   number_educ: 2
   education1: B.Sc. 2025 University of Toronto
@@ -34,9 +34,11 @@ grad_alum:
 
 undergrad_curr:
 - name: Joyce Qu
-  year: 3rd
+  year: 4th
   subject: Rowhammer Attacks and Defenses
-  fund: University of Toronto Excellence Award (UTEA) - Summer 2025
+  fund:
+    - University of Toronto Excellence Award (UTEA) - Summer 2025
+    - CRA Outstanding Undergraduate Researcher (Honorable Mention)
   pubs: Publications at USENIX Security 2025, ISCA 2025.
 
 - name: David Wei

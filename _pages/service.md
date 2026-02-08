@@ -10,6 +10,7 @@ nav: true
 <h3 class="pubtype">Program Committees</h3> 
 
 <ul>
+    <li> 2026: MICRO'26, ISCA'26, HPCA'26, SEC'26, CCS'26.</li>
     <li> 2025: MICRO'25, ISCA'25, HPCA'25.</li>
     <li> 2024: MICRO'24, RAID'24.</li>
     <li> 2023: MICRO'23, DSN'23, RAID'23.</li>
