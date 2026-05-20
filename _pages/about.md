@@ -35,6 +35,6 @@ My research focuses on improving the security for computing hardware and systems
 
 [//]: # (**My research designs low cost and principled security solutions for hardware.** I am interested in a variety of topics at the intersection of computer architecture and security, including cache side-channel resilience, transient execution attacks and defenses in processors, rowhammer attacks and memory integrity, memory safety, and others. )
 
-My work has been awarded a **CSAW Best Paper Award**, **IEEE Top Pick in Hardware and Embedded Security**, **HPCA Best Paper Award**, **2 x IEEE MICRO Top Picks (Honorable Mention)**, **IEEE HOST Best PhD Dissertation Award**, **ACM SIGARCH / IEEE TCCA Outstanding Dissertation Award (Honorable Mention)**, and **ACM SIGMICRO Dissertation Award (Honorable Mention)**.
+My work has been awarded an **S&P Distinguished Paper Award**, **CSAW Best Paper Award**, **IEEE Top Pick in Hardware and Embedded Security**, **HPCA Best Paper Award**, **2 x IEEE MICRO Top Picks (Honorable Mention)**, **IEEE HOST Best PhD Dissertation Award**, **ACM SIGARCH / IEEE TCCA Outstanding Dissertation Award (Honorable Mention)**, and **ACM SIGMICRO Dissertation Award (Honorable Mention)**.
 
 I received my PhD at [Georgia Tech](https://www.ece.gatech.edu), Atlanta, USA, where I was advised by [Prof. Moinuddin Qureshi](https://www.cc.gatech.edu/~moin/). I received my B.Tech and M.Tech at [Indian Institute of Technology - Bombay](http://www.iitb.ac.in/), India. Prior to UofT, I was with [NVIDIA Research](https://www.nvidia.com/en-us/research).
