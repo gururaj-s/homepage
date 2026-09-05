@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CSC2237 / CSC498: Secure Computer Hardware &amp; Systems</title>
+<meta name="description" content="CSC2237 (UTSG) / CSC498 (UTM): Secure Computer Hardware and Systems, University of Toronto, Fall 2026. Instructor: Prof. Gururaj Saileshwar.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --ink:#000;          /* body text                    */
+    --head:#1b1b1b;      /* headings                     */
+    --sub:#808080;       /* subtitle and muted text      */
+    --link:#555;         /* links                        */
+    --cell:#cfcfcf;      /* table cell borders           */
+    --body-font: Roboto, "Gill Sans Medium", "Gill Sans", -apple-system, system-ui, "Segoe UI", "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+    --head-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --text-w: 896px;     /* width of prose               */
+    --page-w: 1104px;    /* width of the page and tables */
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0;background:#fff;color:var(--ink);
+    font-family:var(--body-font);font-size:16px;line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrapper{max-width:var(--page-w);margin:0 auto;padding:0 24px}
+  main{padding-bottom:64px}
+  .content{max-width:var(--text-w)}
+
+  /* --- header ------------------------------------------------------------- */
+  header.site{padding:20px 0 4px}
+  header.site .mark{
+    font-family:var(--head-font);font-size:15px;color:var(--head);
+    text-decoration:none;letter-spacing:.01em;
+  }
+  header.site .mark:hover{color:#000;text-decoration:underline}
+
+  /* --- headings and prose -------------------------------------------------- */
+  h1{font-family:var(--head-font);font-size:30px;font-weight:400;line-height:1.25;color:var(--head);margin:32px 0 .4em}
+  h2{font-family:var(--head-font);font-size:24px;font-weight:400;line-height:1.25;color:var(--head);margin:32px 0 8px}
+  h3.subtitle{font-family:var(--head-font);font-size:20px;font-weight:400;line-height:1.25;color:var(--sub);margin:0 0 8px}
+  p{margin:0 0 1.2em}
+  ul,ol{margin:0 0 1.2em;padding-left:18px}
+  li{margin:0 0 .25em;line-height:1.6}
+  a{color:var(--link);text-decoration:underline;text-decoration-color:#bbb;text-underline-offset:2px}
+  a:hover{color:#000;text-decoration-color:#000}
+  strong{font-weight:500}
+  .tbd{color:var(--sub);font-style:italic}
+
+  /* --- course evaluation list ------------------------------------------------ */
+  ul.eval{max-width:var(--text-w)}
+  ul.eval li{margin:0 0 .35em}
+  ul.eval .w{
+    display:inline-block;min-width:46px;font-weight:500;
+    font-variant-numeric:tabular-nums;
+  }
+
+  /* --- schedule table --------------------------------------------------------- */
+  table.schedule{
+    border-collapse:collapse;width:100%;font-size:15.5px;margin:0 0 1.4em;
+    border-top:1px solid var(--cell);border-bottom:1px solid var(--cell);
+  }
+  table.schedule th{
+    font-family:var(--head-font);font-weight:500;font-size:13px;
+    text-transform:uppercase;letter-spacing:.07em;color:var(--head);
+    text-align:left;padding:9px 16px;background:#f7f7f7;
+    border-bottom:1px solid var(--cell);
+  }
+  table.schedule td{
+    padding:10px 16px;text-align:left;vertical-align:top;
+    border-bottom:1px solid #ededed;
+  }
+  table.schedule tbody tr:last-child td{border-bottom:0}
+  table.schedule tbody tr:hover td{background:#fafafa}
+  table.schedule td:first-child{
+    width:48px;color:var(--sub);font-variant-numeric:tabular-nums;
+  }
+  table.schedule td:nth-child(2){
+    white-space:nowrap;width:92px;font-variant-numeric:tabular-nums;
+  }
+  table.schedule td:nth-child(3){font-weight:500}
+  table.schedule td:last-child{color:#444}
+
+  @media (max-width:900px){
+    /* let the wide schedule scroll instead of squeezing the page */
+    table.schedule{display:block;overflow-x:auto}
+  }
+  @media (max-width:640px){
+    body{font-size:15.5px}
+    h1{font-size:26px}
+    h2{font-size:21px}
+    h3.subtitle{font-size:18px}
+  }
+  @media print{
+    a{color:#000;text-decoration:none}
+    h2{page-break-after:avoid}
+    tr{page-break-inside:avoid}
+  }
+</style>
+</head>
+<body>
+
+<header class="site">
+  <div class="wrapper">
+    <a class="mark" href="https://gururaj-s.github.io/">Gururaj Saileshwar &middot; University of Toronto</a>
+  </div>
+</header>
+
+<main class="wrapper">
+  <div class="content">
+    <h1>Secure Computer Hardware &amp; Systems</h1>
+    <h3 class="subtitle">CSC2237 (Graduate, UTSG) &amp; CSC498 (Undergraduate, UTM) &middot; Fall 2026</h3>
+
+    <h2>Overview</h2>
+    <p>In recent years, numerous hardware vulnerabilities have left software systems open to exploitation: processor speculation attacks like Spectre and Meltdown, cache side-channel attacks, and DRAM Rowhammer. These attacks let malicious software extract sensitive data, tamper with critical data, and even seize control of entire systems via privilege escalation.</p>
+    <p>This course covers both the offensive and defensive sides of micro-architectural security, spanning cache side-channel attacks, transient execution, Rowhammer, trusted execution environments, and memory safety, with material drawn from security (USENIX Security, IEEE S&amp;P) and computer architecture (ISCA, MICRO, HPCA, ASPLOS) papers. Students will develop proof-of-concept exploits on real systems, complete two programming assignments, and undertake a mini-research project.</p>
+
+    <h2>Course Information</h2>
+    <ul>
+      <li><strong>Instructor</strong>: <a href="https://gururaj-s.github.io/">Gururaj Saileshwar</a></li>
+      <li><strong>E-mail</strong>: <a href="mailto:gururaj@cs.toronto.edu">gururaj@cs.toronto.edu</a></li>
+      <li><strong>Class Time</strong>: Mondays, 3:00 PM &ndash; 5:00 PM</li>
+      <li><strong>Location (CSC2237, UTSG)</strong>: WB 130 (in person)</li>
+      <li><strong>Location (CSC498, UTM)</strong>: DH 4001 (live streamed from UTSG)</li>
+      <li><strong>Office Hours</strong>: Tuesdays, 2:00 PM &ndash; 3:00 PM, BA 7266 (Bahen, UTSG); and Thursdays, 3:00 PM &ndash; 4:00 PM, virtual over <a href="https://utoronto.zoom.us/my/meet.gururaj">Zoom</a></li>
+    </ul>
+
+    <h2>Important Links</h2>
+    <ul>
+      <li><strong>Course Website</strong>: <a href="https://gururaj-s.github.io/teaching/csc2237_csc498.html">https://gururaj-s.github.io/teaching/csc2237_csc498.html</a></li>
+      <li><strong>Quercus (for announcements, assignments)</strong>: <span class="tbd">link to be added</span></li>
+      <li><strong>Piazza (for discussion)</strong>: <span class="tbd">link to be added</span></li>
+    </ul>
+
+    <h2>Prerequisites</h2>
+    <p>A general understanding of computer organization and architecture, and operating systems is required. There is no textbook for this course, but material is drawn from security (USENIX Security, IEEE S&amp;P) and computer architecture (ISCA, MICRO, HPCA, ASPLOS) papers.</p>
+
+    <h2>Course Evaluation</h2>
+    <ul class="eval">
+      <li><span class="w">40%</span> Two mid-term exams, during class time (20% each)</li>
+      <li><span class="w">30%</span> Two programming assignments (15% each)</li>
+      <li><span class="w">20%</span> Research project: report and presentation</li>
+      <li><span class="w">10%</span> Reviews of three research papers (3.33% each)</li>
+    </ul>
+    <p>The assignments are programming-based and involve coding up micro-architectural attacks on real systems. The paper reviews focus on security papers selected from the computer architecture (ISCA, MICRO, HPCA, ASPLOS) and security (IEEE S&amp;P, USENIX Security) conferences. Please submit all the slides and reports required in the course in PDF format. Course projects can be done in teams of 1&ndash;2, and project topics must be approved by the instructor.</p>
+
+    <h2>Policy on the Use of Artificial Intelligence</h2>
+    <p>You are welcome to use AI assistants (ChatGPT) to help you understand course material and for brainstorming on your research project. You remain fully responsible for the correctness of the material you submit. Any use of AI tools on the research project should be disclosed in your submission. You may not use AI assistants for writing the paper reviews, or programming assignments or midterms. If you have any questions about this policy, please reach out.</p>
+  </div>
+
+  <h2>Schedule</h2>
+  <p class="content">Lectures are on Mondays, 3:00 PM &ndash; 5:00 PM.</p>
+  <table class="schedule">
+    <thead>
+      <tr><th>#</th><th>Date</th><th>Topic</th><th>Deadlines</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>1</td><td>Sep 14</td><td>Introduction &amp; Side-Channel Attacks</td><td></td></tr>
+      <tr><td>2</td><td>Sep 21</td><td>Defenses Against Side-Channel Attacks</td><td>Review 1 due; Assignment 1 released</td></tr>
+      <tr><td>3</td><td>Sep 28</td><td>Transient Execution Attacks (Spectre, Meltdown)</td><td></td></tr>
+      <tr><td>4</td><td>Oct 5</td><td>Defenses Against Transient Execution Attacks</td><td>Assignment 1 due; Assignment 2 released</td></tr>
+      <tr><td>5</td><td>Oct 19</td><td>Midterm 1</td><td>Review 2 due; project proposal due</td></tr>
+      <tr><td>6</td><td>Nov 2</td><td>Rowhammer Attacks</td><td>Assignment 2 due</td></tr>
+      <tr><td>7</td><td>Nov 9</td><td>Rowhammer Defenses</td><td>Review 3 due</td></tr>
+      <tr><td>8</td><td>Nov 16</td><td>Trusted Execution Environments (TEEs)</td><td></td></tr>
+      <tr><td>9</td><td>Nov 23</td><td>Attacks and Defenses on TEEs</td><td></td></tr>
+      <tr><td>10</td><td>Nov 30</td><td>Midterm 2</td><td></td></tr>
+      <tr><td>11</td><td>Dec 7</td><td>Project Presentations</td><td></td></tr>
+      <tr><td>12</td><td>Dec 8</td><td>Project Presentations</td><td>Project report due Dec 8</td></tr>
+    </tbody>
+  </table>
+</main>
+
+</body>
+</html>
